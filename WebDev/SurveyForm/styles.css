@@ -1,0 +1,55 @@
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 1.1em;
+    background-color: rgba(0,0,127,0.5);
+    color: white;
+  }
+  #description {
+    font-style: italic;
+    font-weight: 200;
+  }
+  form {
+    font-size: 1.1em;
+    width: 640px;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 2em auto;
+    background-color:rgba(27, 27, 50, 0.8);
+    padding: 2em;
+  }
+  input, select {
+    width: 100%;
+    padding:6px 12px;
+    margin: 0.5em;
+  }
+  label {
+    display: block;
+    padding:6px 12px;
+  }
+  .label {
+    padding: 0.67em;
+  }
+  input[type="radio"], input[type="checkbox"] {
+    width: unset;
+    margin: 0.33em;
+  }
+  div {
+    max-width: 500px;
+    min-width: 300px;
+    margin: 2em auto;
+  }
+  textarea {
+    width: 608px;
+    height: 96px;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 1em;
+  }
+  input[type="submit"] {
+    border: none;
+    padding: 12px;
+    color: white;
+    background-color: #37af65;
+  }
+  
