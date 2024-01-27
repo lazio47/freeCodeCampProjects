@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, "Lucida Handwriting", "Noto Sans",Sans-Serif;
+  }
+  
+  body {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: large;
+    background-color: #85DCB8;
+  }
+  #header {
+    height: 2rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 30px;
+    width: 100%;
+    background: #41B3A3;
+  }
+  #logo {
+    height: 3rem;
+  }
+  #nav-bar > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 10px;
+  }
+  #nav-bar > ul li {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  #nav-bar > ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  main {
+    margin-top: 100px;
+  }
+  #introduction > h2 {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    margin-bottom: -30px;
+  }
+  div > h2 {
+    margin-bottom: 0px;
+  }
+  section {
+    padding: 50px;
+    margin-top: 40px;
+  }
+
+  #courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .course {
+    background: #b2e4cf;
+    border-radius: 15px;
+  }
+
+  .course-name {
+    background: #41B3A3;
+    color:#ffffff;
+    border-radius: 10px;
+    height: 2rem;
+  }
+
+  #welcome {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .feature-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .img-feature > img {
+    height: 6rem;
+  }
+  label {
+    display: block;
+    margin: 10px auto;
+  }
+  footer > p {
+    background-color: #41B3A3;
+    font-family: Consolas, sans-serif;
+  }
+  input {
+    background-color: #b2e4cf;
+    height: 1.5rem;
+  }
+
+  @media (max-width: 600px){
+    #nav-bar > ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 10px;
+      }
+      #header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 10px;
+      }
+      iframe {
+        width: 350px;
+        height: 200px;
+      }
+
+      #courses {
+        grid-template-columns: 1fr;
+      }
+  }
